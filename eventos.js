@@ -1,5 +1,5 @@
 
-const EventEmitter = require("events").eventEmitter;
+const EventEmitter = require("events").EventEmitter;
 
 
 
