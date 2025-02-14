@@ -1,2 +1,14 @@
 # javascript
-programas de practica en js
+
+- programas de practica en js
+
+- ejercios en js
+
+- posibles proyectos
+
+***
+este es un repositorio para hacer ejercisios practicos en js para practicar ademas de las posibilidad de proyectos
+
+***
+
+
