@@ -13,7 +13,13 @@ evento.on("buenas", function(){
 
 
 
-evento.emit("buenas");
+evento.on("adios", function(){
+    console.log("soy el segundo evento");
+})
 
+
+
+evento.emit("buenas");
+evento.emit("adios");
 
 
