@@ -12,3 +12,5 @@ repl.on('exit', function(){
     console.log('este es un evento de salida');
     process.exit();
 })
+
+replServer.defineCommand(keyword, cmd)
