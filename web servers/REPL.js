@@ -7,3 +7,8 @@ net.createServer(function (socket){
         "remote>", socket
     );
 }).listen(5001)
+
+repl.on('exit', function(){
+    console.log('este es un evento de salida');
+    process.exit();
+})
