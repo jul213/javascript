@@ -24,3 +24,4 @@ net.createServer(function (socket){
     })
 }).listen(5001)
 
+console.log("REPL servidor escuchando en el puerto 5001");
