@@ -8,11 +8,13 @@ net.createServer(function (socket){
         input: socket,
         output: socket
     });
+
+    repl.on('exit', function(){
+        console.log('este es un evento de salida');
+        socket.end()
+    })
+    
 }).listen(5001)
 
-repl.on('exit', function(){
-    console.log('este es un evento de salida');
-    socket.end()
-})
 
 replServer.defineCommand(keyword, cmd)
