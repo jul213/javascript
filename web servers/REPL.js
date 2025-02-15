@@ -13,8 +13,13 @@ net.createServer(function (socket){
         console.log('este es un evento de salida');
         socket.end()
     })
-    
+
+    replServer.defineCommand("hello", {
+        help: "say hello",
+        action(name){
+            this.clearBufferedCommand();
+            
+        }
+    })
 }).listen(5001)
 
-
-replServer.defineCommand(keyword, cmd)
