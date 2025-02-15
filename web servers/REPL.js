@@ -18,7 +18,8 @@ net.createServer(function (socket){
         help: "say hello",
         action(name){
             this.clearBufferedCommand();
-            
+            console.log(`hello i am server REPL ${name}`);
+            this.displayPrompt();
         }
     })
 }).listen(5001)
