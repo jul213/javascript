@@ -17,4 +17,11 @@ client.connect((err) => {
             }
         )
     }
+
+
+    client.end((error) => {
+        if (error){
+            console.log("error en el cierre de la conexion de la base de datos");
+        }
+    })
 })
