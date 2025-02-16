@@ -14,16 +14,16 @@ client.connect((err) => {
                 } else{
                     console.log(result.rows);
                 }
+                client.end((error) => {
+                    if (error){
+                        console.log("error en el cierre de la conexion de la base de datos");
+                    } else{
+                        console.log("todo correcto cierre garantizado")
+                    }
+                })
             }
         )
     }
 
 
-    client.end((error) => {
-        if (error){
-            console.log("error en el cierre de la conexion de la base de datos");
-        } else{
-            console.log("todo correcto cierre garantizado")
-        }
-    })
 })
