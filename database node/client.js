@@ -1,6 +1,6 @@
 const pg = require('pg')
 
-
+const constring = 'pg://user:password@host:port/database'
 
 const client = new pg.Client(constring);
 
