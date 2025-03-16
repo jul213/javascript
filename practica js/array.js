@@ -8,3 +8,4 @@ const union = fruits.join(" * ")
 
 const saludo = ["buenas", "que onda", "que se dice"];
 
+saludo.pop();
