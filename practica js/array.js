@@ -19,3 +19,4 @@ delete fruits[0];
 
 
 fruits.sort();
+saludo.reverse();
