@@ -16,7 +16,5 @@ saludo[1] = "saas";
 delete fruits[0];
 
 
-
-
 fruits.sort();
 saludo.reverse();
