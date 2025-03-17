@@ -9,3 +9,8 @@ nombres.set("nombre4", "papo");
 function obtenerTamaño(mapa){
     return mapa.size
 }
+
+
+const mostrarNombres = (mapa) =>{
+    
+}
