@@ -11,5 +11,5 @@ function session (key, value){
 }
 
 function obtenerSession (key){
-    
+    sessionStorage.getItem(key);
 }
