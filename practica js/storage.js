@@ -6,6 +6,6 @@ localStorage.getItem("nombre");
 
 
 
-function session (){
+function session (key, value){
     
 }
