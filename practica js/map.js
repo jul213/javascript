@@ -12,5 +12,7 @@ function obtenerTamaño(mapa){
 
 
 const mostrarNombres = (mapa) =>{
-    
+    mapa.forEach((nombre, clave) => {
+        console.log(nombre);
+    });
 }
