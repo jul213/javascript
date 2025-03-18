@@ -7,5 +7,5 @@ localStorage.getItem("nombre");
 
 
 function session (key, value){
-    
+    sessionStorage.setItem(key, value)
 }
