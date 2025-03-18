@@ -5,3 +5,4 @@ const person = {
     eyeColor: "blue"
 };
 
+let text = Object.values(person);
