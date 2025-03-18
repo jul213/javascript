@@ -7,3 +7,4 @@ const person = {
 
 let text = Object.values(person);
 const keys = Object.keys(person);
+Object.defineProperty(person, "year", {value: 2020});
